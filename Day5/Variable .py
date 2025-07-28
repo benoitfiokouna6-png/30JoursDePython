@@ -63,5 +63,3 @@ ages_median = ages[len(ages)] # l'ages médian est 24
 
 # la plages de l'ages moyen
 
-
-.
