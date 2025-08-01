@@ -39,7 +39,8 @@ elif A < B:
 # 9, B 60-69, C 50-59, D 0-49, E
 
 # Pour cet exercice, nous allons écrire un code qui attribue des notes aux élèves en fonction de leur score.
-Score = int(input("Entrez votre score (0-100): ")) elif 80 <= Score <= 100:
+Score = int(input("Entrez votre score (0-100): "))
+if 80 <= Score <= 100:
     print("Votre note est A.")
     
 if 80 <= Score <= 100:
