@@ -89,4 +89,4 @@ secondes = decalage_horaire.seconds % 60
 print(f"Décalage horaire depuis le 1er janvier 1970 : {jours} jours, {heures} heures, {minutes} minutes et {secondes} secondes")
 
 # nous utilisons le module Date Time pour analyser des séries chronologiques  , pour obtenir un horodages de toutes les activités dans une appliaton 
- 
+
