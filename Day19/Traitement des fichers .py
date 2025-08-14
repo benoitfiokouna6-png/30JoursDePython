@@ -56,7 +56,7 @@ def main():
     if data:
         langues = compter_langues(data)
 dix_langues_les_plus_parlees = trouver_dix_langues_les_plus_parlees(langues)
-        print("Les dix langues les plus parlées sont :")
+    print("Les dix langues les plus parlées sont :")
         for i, (langue, nombre) in enumerate(dix_langues_les_plus_parlees):
             print(f"{i+1}. {langue} : {nombre} pays")
 
